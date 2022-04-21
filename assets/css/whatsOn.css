@@ -1,0 +1,52 @@
+.whatson-container {
+  padding: 20px;
+}
+
+.whatson-movie-tem img {
+  width: 100px;
+  margin-right: 20px;
+}
+.text-desc-movie {
+  width: 60%;
+}
+.whatson-movie-tem {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  align-items: center;
+}
+.movie-desc-container {
+  width: 100%;
+}
+.text-and-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-movie {
+  display: flex;
+  flex-direction: column;
+}
+.button-movie span {
+  background-color: #485b5a;
+  margin: 10px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.button-movie span:hover {
+  color: #f1c269;
+}
+.movie-desc-container img {
+  height: 30px;
+  width: 100px;
+}
+@media screen and (max-width: 1250px) {
+  .text-desc-movie {
+    font-size: 12px;
+  }
+  .text-desc-movie h2 {
+    font-size: 15px;
+  }
+}
